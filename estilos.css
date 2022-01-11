@@ -1,0 +1,104 @@
+body {
+  background-color: #ff9900;
+}
+
+header {
+  background-color: black;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  font-size: 400%;
+  color: #ff9900;
+}
+
+h1:hover {
+  color: #ff9900;
+  text-decoration: black;
+}
+
+.checko {
+  margin-left: 2%;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+nav {
+  font-size: 150%;
+  color: #ff9900;
+  border: 5px;
+  justify-content: end;
+}
+
+a {
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+.pedidosya:hover {
+  color: #ff9900;
+}
+
+li {
+  display: inline;
+  border-right: 3px solid;
+}
+
+main {
+  background-color: black;
+  margin-top: 8em;
+  height: 100%;
+}
+
+#img2 {
+  margin-bottom: 3%;
+}
+
+h2 {
+  color: #ff9900;
+  text-decoration: underline;
+  font-size: x-large;
+  text-align: center;
+  padding-top: 1px;
+}
+
+h3 {
+  text-align: center;
+  justify-items: top;
+  color: black;
+  text-decoration: underline;
+}
+
+.telefono {
+  padding-top: 2em;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+  margin: 5%;
+}
+
+i {
+  color: #ff9900;
+}
+
+.cubierta {
+  margin-left: 2%;
+}
+
+#subcontenedor {
+  background-color: #ff9900;
+  height: 343px;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

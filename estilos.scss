@@ -1,0 +1,139 @@
+$color1: black;
+
+$color2: #ff9900;
+
+$left: left;
+
+$logo: 400%;
+
+$checkoleft: 2%;
+
+$nada: none;
+
+$sizenavegador: 150%;
+
+$bordernav: 5px;
+
+$bordernav2: 5%;
+
+$justend: end;
+
+$underline: underline;
+
+$boderight: 3px solid;
+
+$mtop: 8em;
+
+$alto: 100%; 
+
+$h2: x-large;
+
+$center: center;
+
+
+
+
+body{
+    background-color: $color2;
+}
+
+header{
+    background-color: $color1;
+    text-align: $left;
+}
+
+h1{
+    text-align: $left;
+    font-size: $logo;
+    color: $color2;
+}
+
+h1:hover{
+    color: $color2;
+    text-decoration: $color1;
+}
+
+.checko{
+    margin-left: $checkoleft;
+}
+
+.logo{
+    text-decoration: $nada;
+}
+
+nav{
+    font-size: $sizenavegador;
+    color:$color2;
+    border: $bordernav;
+    justify-content: $justend;
+}
+
+a{
+    color: $color2;
+    text-decoration: $underline;
+}
+
+a:hover{
+    color:$color2;
+}
+
+.pedidosya:hover{
+    color: $color2;
+}
+
+li{
+    display: inline;
+    border-right: $boderight;
+}
+
+main{
+    background-color: $color1;
+    margin-top: $mtop;
+    height: $alto;
+}
+
+#img2{
+    margin-bottom: 3%;
+}
+
+h2{
+    color: $color2;
+    text-decoration: $underline;
+    font-size: $h2;
+    text-align: $center;
+    padding-top: 1px;
+}
+
+h3{
+    text-align: $center;
+    justify-items: top;
+    color: $color1;
+    text-decoration: $underline;
+}
+
+.telefono{
+    padding-top: 2em;
+}
+
+p{
+    text-align: $center;
+    font-size: $h2;
+    margin: $bordernav2;
+}
+
+i{
+    color: $color2;
+}
+
+.cubierta{
+    margin-left: $checkoleft;
+}
+
+#subcontenedor{
+    background-color: $color2;
+    height: 343px;
+    width: $alto;
+    margin-bottom: $checkoleft;
+}
+
+
